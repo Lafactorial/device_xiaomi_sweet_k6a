@@ -88,7 +88,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet_k6a
-TARGET_KERNEL_CONFIG := vendor/sweet2.config
+TARGET_KERNEL_CONFIG := vendor/sweet2.config vendor/sdmsteppe-perf_defconfig vendor/debugfs.config
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1
 KERNEL_LD := LD=ld.lld

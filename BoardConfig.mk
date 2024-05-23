@@ -86,7 +86,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet_k6a
-TARGET_KERNEL_CONFIG := vendor/sweet2.config vendor/sdmsteppe-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/sweetk6a.config vendor/sdmsteppe-perf_defconfig
 
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0x880000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom androidboot.console=ttyMSM0
